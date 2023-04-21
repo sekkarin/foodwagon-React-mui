@@ -48,6 +48,7 @@ function Arrow(props) {
 const CarouselSlide = (props) => {
   const { title, img, location, price } = props.content;
 
+  
 
   return <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3'>
     <Card sx={{ maxWidth: 345, borderRadius: "24px", boxShadow: 'none' }} className='shadow-none text-center '>
