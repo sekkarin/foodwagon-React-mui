@@ -23,7 +23,7 @@ export const HeaderSection = () => {
             <div className="flex-grow order-2 md:order-1 py-10 ">
                 <Typography variant='h3' sx={{ fontWeight: "bold" }} className='text-gray-100 font-bold text-center' >Within a few clicks, find meals that <br></br>Are you starving?</Typography>
                 <Typography variant='h3' sx={{ fontWeight: "bold", color: "#616161", fontSize: "33px" }} className='text-gray-100 font-bold text-center' >Within a few clicks, find meals that</Typography>
-                <div className="flex flex-col  bg-white rounded-lg mt-16 mx-auto w-4/6">
+                <div className="flex flex-col  bg-white rounded-lg mt-16 mx-auto md:w-4/6">
                     <div className="flex-row   p-5">
                         <ToggleButtonGroup
                             value={alignment}
@@ -60,7 +60,7 @@ export const HeaderSection = () => {
                                     </InputAdornment>
                                 }
                             />
-                            <Button className='bg-orange-400 text-white' sx={{backgroundColor:"#F17228",color:"white",width:"auto"}}>Find Food</Button>
+                            <Button className='bg-orange-400 text-white text-sm' sx={{backgroundColor:"#F17228",color:"white",width:"auto"}}>Find Food</Button>
                         </FormControl>
                     </div>
                 </div>
